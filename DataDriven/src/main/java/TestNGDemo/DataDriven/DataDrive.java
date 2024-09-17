@@ -24,6 +24,7 @@ public class DataDrive {
 	driver.findElement(By.xpath("//input[@value='Login']")).click();
 	
 	Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
+        System.out.ptintln("Hello");
 	
 	
 	}
